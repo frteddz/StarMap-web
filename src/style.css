@@ -138,3 +138,8 @@ header .subtitle {
   .controls { flex-direction: column; align-items: stretch; }
   .control-group input, .control-group select { width: 100%; }
 }
+
+/* footer */
+footer { text-align: center; padding: 1.5rem; font-size: 0.75rem; color: #666; border-top: 1px solid #222; margin-top: 2rem; }
+footer a { color: var(--accent, #fbe134); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
